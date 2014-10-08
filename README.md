@@ -2,7 +2,7 @@
 
 A Leiningen plugin for building native iOS apps in Clojure and Java using the [RoboVM](http://www.robovm.org) bytecode-to-native translator. It is modeled after [lein-droid](https://github.com/clojure-android/lein-droid) and the commands are similar. Both plugins are included in [Nightcode](http://nightcode.info/), for those who prefer not using the command line.
 
-The programming is done by using RoboVM's [wrapper classes](https://github.com/robovm/robovm/tree/master/cocoatouch/src/main/java/org/robovm/apple), as shown in the built-in template. Please note that REPL development and any use of `eval` is not supported. The built-in template uses a forked version of Clojure due to an [import issue](http://dev.clojure.org/jira/browse/CLJ-1315) (please vote for it).
+The programming is done by using RoboVM's [wrapper classes](https://github.com/robovm/robovm/tree/master/cocoatouch/src/main/java/org/robovm/apple), as shown in the built-in template. Please note that REPL development and any use of `eval` is not supported. The built-in template uses a forked version of Clojure due to an [import issue](http://dev.clojure.org/jira/browse/CLJ-1315) that will be fixed in Clojure 1.7.
 
 ## Installation
 
