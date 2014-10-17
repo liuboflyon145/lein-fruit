@@ -20,7 +20,7 @@ public class {{class-name}} extends UIApplicationDelegateAdapter {
 		});
 		
 		window = new UIWindow(UIScreen.getMainScreen().getBounds());
-		window.setBackgroundColor(UIColor.colorLightGray());
+		window.setBackgroundColor(UIColor.lightGray());
 		window.addSubview(button);
 		window.makeKeyAndVisible();
 		

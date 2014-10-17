@@ -19,7 +19,7 @@
             (.setTitle button (str "Click #" (swap! click-count inc)) normal)))))
     (reset! window (UIWindow. (.getBounds (UIScreen/getMainScreen))))
     (doto @window
-      (.setBackgroundColor (UIColor/colorLightGray))
+      (.setBackgroundColor (UIColor/lightGray))
       (.addSubview button)
       .makeKeyAndVisible)))
 

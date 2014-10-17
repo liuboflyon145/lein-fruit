@@ -4,7 +4,7 @@
             [leiningen.core classpath eval main]
             [robert.hooke :as hooke]))
 
-(def ^:const robovm-compiler "/lib/robovm-compiler.jar")
+(def ^:const robovm-compiler "/lib/robovm-dist-compiler.jar")
 (def ^:const robovm-libs ["/lib/robovm-rt.jar"
                           "/lib/robovm-objc.jar"
                           "/lib/robovm-cocoatouch.jar"])
