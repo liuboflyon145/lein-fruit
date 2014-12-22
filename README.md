@@ -4,6 +4,8 @@ A Leiningen plugin for building native iOS apps in Clojure and Java using the [R
 
 The programming is done by using RoboVM's [wrapper classes](https://github.com/robovm/robovm/tree/master/cocoatouch/src/main/java/org/robovm/apple), as shown in the built-in template. Please note that REPL development and any use of `eval` is not supported. The built-in template uses a forked version of Clojure due to an [import issue](http://dev.clojure.org/jira/browse/CLJ-1315) that will be fixed in Clojure 1.7.
 
+**NOTE: This plugin stopped working with the latest versions of RoboVM (starting with the 1.0.0 alphas). It compiles but the iOS simulator just hangs. If you'd like to try working on the problem, follow the installation instructions below but use lein-fruit 0.2.1 and the [latest version of RoboVM](http://download.robovm.org/) instead.**
+
 ## Installation
 
 1. Get a computer running Mac OS X
