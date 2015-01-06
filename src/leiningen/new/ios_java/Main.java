@@ -8,7 +8,7 @@ public class {{class-name}} extends UIApplicationDelegateAdapter {
 	private UIWindow window = null;
 	private int clickCount = 0;
 	
-	public boolean didFinishLaunching(UIApplication app, NSDictionary opts) {
+	public boolean didFinishLaunching(UIApplication app, UIApplicationLaunchOptions opts) {
 		final UIButton button = UIButton.create(UIButtonType.RoundedRect);
 		button.setFrame(new CGRect(115.0f, 121.0f, 91.0f, 37.0f));
 		button.setTitle("Click me!", UIControlState.Normal);

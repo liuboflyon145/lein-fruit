@@ -7,7 +7,7 @@ import org.robovm.apple.foundation.*;
 import org.robovm.apple.uikit.*;
 
 public class {{class-name}} extends UIApplicationDelegateAdapter {
-	public boolean didFinishLaunching(UIApplication app, NSDictionary opts) {
+	public boolean didFinishLaunching(UIApplication app, UIApplicationLaunchOptions opts) {
 		RT.var("clojure.core", "require").invoke(Symbol.intern("{{namespace}}"));
 		RT.var("{{namespace}}", "init").invoke();
 		return true;
