@@ -14,7 +14,7 @@ The programming is done by using RoboVM's [wrapper classes](https://github.com/r
 
 ```clojure
 {:user {
-    :plugins [[lein-fruit "0.2.0"]]
+    :plugins [[lein-fruit "0.2.2"]]
     :ios {:robovm-path "/absolute/path/to/robovm-1.0.0-beta-02"}
 }}
 ```
@@ -34,7 +34,7 @@ lein fruit doall
 # ...which is the same thing as
 lein fruit compile && lein fruit run
 # Use the iPad simulator
-lein fruit doall -ios-sim-family ipad
+lein fruit doall -devicetype "iPad-Air, 8.1"
 
 # Build an ARM version
 lein fruit release
